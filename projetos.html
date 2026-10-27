@@ -20,48 +20,55 @@
   <link rel="stylesheet" href="./style.css">
   <link rel="stylesheet" href="./experience.css">
   <link rel="stylesheet" href="./refinements.css">
+  <link rel="stylesheet" href="./catalog.css">
 </head>
 <body><div class="page-grid" aria-hidden="true"></div><div class="scroll-progress" aria-hidden="true"></div><div class="cursor-ring" aria-hidden="true"></div><a class="skip-link" href="#galeria">Ir para os projetos</a><div class="site-shell"><header class="site-header">
-      <a class="brand" href="./" aria-label="Behi Digital — início">
+      <a class="brand" href="./index.html" aria-label="Behi Digital — início">
         <span class="logo-horizontal" role="img" aria-label="behi.digital"><img src="./assets/site-cabecalho-d1fed30f.png" alt="" width="1046" height="238" aria-hidden="true"></span>
       </a>
       <span class="brand-descriptor">soluções digitais<br>e criativas.</span>
       <nav class="desktop-nav" aria-label="Navegação principal">
-        <a href="./#solucoes">soluções</a>
-        <a href="./projetos.html" aria-current="page">projetos</a>
-        <a href="./#contato">contato <span aria-hidden="true">↗</span></a>
+        <a href="./index.html#solucoes">Soluções</a>
+        <a href="./projetos.html" aria-current="page">Projetos</a>
+        <a href="./index.html#contato">Contato <span aria-hidden="true">↗</span></a>
       </nav>
       <a class="header-contact whatsapp-link" href="https://wa.me/5511982517271?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Behi%20e%20gostaria%20de%20um%20or%C3%A7amento%20para%20meu%20projeto." target="_blank" rel="noopener noreferrer">
-        vamos conversar <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12" stroke="currentColor" stroke-width="1.7"/></svg><span class="sr-only"> pelo WhatsApp (abre em nova aba)</span>
+        Vamos conversar <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12" stroke="currentColor" stroke-width="1.7"/></svg><span class="sr-only"> pelo WhatsApp (abre em nova aba)</span>
       </a>
       <button class="menu-toggle" aria-expanded="false" aria-controls="mobile-menu" aria-label="Abrir menu"><span></span><span></span></button>
       <nav id="mobile-menu" class="mobile-menu" aria-label="Navegação móvel" hidden>
-        <a href="./#solucoes">soluções <span aria-hidden="true">↘</span></a>
-        <a href="./projetos.html" aria-current="page">projetos <span aria-hidden="true">↘</span></a>
-        <a class="whatsapp-link" href="https://wa.me/5511982517271?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Behi%20e%20gostaria%20de%20um%20or%C3%A7amento%20para%20meu%20projeto." target="_blank" rel="noopener noreferrer">pedir um orçamento <span aria-hidden="true">↗</span></a>
+        <a href="./index.html#solucoes">Soluções <span aria-hidden="true">↘</span></a>
+        <a href="./projetos.html" aria-current="page">Projetos <span aria-hidden="true">↘</span></a>
+        <a class="whatsapp-link" href="https://wa.me/5511982517271?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Behi%20e%20gostaria%20de%20um%20or%C3%A7amento%20para%20meu%20projeto." target="_blank" rel="noopener noreferrer">Pedir um orçamento <span aria-hidden="true">↗</span></a>
       </nav>
     </header>
     <main id="galeria" class="gallery-main">
-      <nav class="breadcrumbs" aria-label="Caminho da página"><a href="./">início</a><span aria-hidden="true">/</span><span aria-current="page">projetos</span></nav>
-      <div class="gallery-heading"><div><p class="section-label reveal"><span>portfólio</span> feito pela behi</p><h1 class="reveal">ideias que<br>marcam <span class="accent">presença.</span></h1></div><div><p class="section-description reveal">Do digital ao que você veste. Explore nossos trabalhos por categoria e veja cada ideia ganhar forma.</p><p class="gallery-total"><span id="gallery-total">03</span> projetos publicados</p></div></div>
-      <div id="gallery-filters" class="gallery-filters" role="group" aria-label="Filtrar projetos por categoria"></div>
-      <div id="gallery-results" class="gallery-results"><p id="gallery-status" class="gallery-status" role="status" aria-live="polite"></p><ul id="gallery-list" class="gallery-grid" aria-label="Projetos"></ul>
-      <div id="gallery-empty" class="gallery-empty" hidden><h2>novos pontos de vista<br>chegam por aqui<span class="accent">.</span></h2><p>Ainda não há projetos publicados nesta categoria. Enquanto isso, conheça os outros trabalhos da Behi.</p><a id="gallery-reset" class="button button-primary" href="./projetos.html">ver todos os projetos <span aria-hidden="true">↗</span></a></div>
-      <nav id="gallery-pagination" class="gallery-pagination" aria-label="Paginação dos projetos"></nav></div>
+      <nav id="gallery-breadcrumbs" class="breadcrumbs" aria-label="Caminho da página"><a href="./index.html">Início</a><span aria-hidden="true">/</span><span aria-current="page">Projetos</span></nav>
+      <div class="gallery-heading"><div><p class="section-label"><span>Portfólio</span> Feito pela Behi</p><h1 id="gallery-title">Cada ideia, um novo<br>ponto de vista<span class="accent">.</span></h1></div><div><p id="gallery-description" class="section-description">Escolha o que você quer criar. Explore os projetos e as coleções de cada cliente para encontrar a sua próxima referência.</p><p class="gallery-total"><span id="gallery-total">03</span> trabalhos publicados</p></div></div>
+      <nav id="gallery-services" class="catalog-services" aria-label="Escolher área de atuação"></nav>
+      <div class="catalog-filter-heading"><span>Encontre por serviço</span><a id="gallery-overview" href="./projetos.html">Ver tudo <span aria-hidden="true">↗</span></a></div>
+      <nav id="gallery-filters" class="gallery-filters" aria-label="Filtrar projetos por serviço"></nav>
+      <section id="gallery-results" class="gallery-results" aria-labelledby="gallery-context-title">
+        <div class="catalog-context"><div><p id="gallery-context-label" class="catalog-eyebrow">Explore o portfólio</p><h2 id="gallery-context-title">Projetos & coleções<span class="accent">.</span></h2><p id="gallery-context-description">As coleções reúnem os trabalhos de cada cliente. Abra uma delas para ver as peças.</p></div><p id="gallery-status" class="gallery-status" role="status" aria-live="polite"></p></div>
+        <a id="gallery-back" class="catalog-back work-link" href="./projetos.html" hidden>← Voltar para os clientes</a>
+        <ul id="gallery-list" class="gallery-grid" aria-label="Projetos e coleções de clientes"></ul>
+        <div id="gallery-empty" class="gallery-empty" hidden><span class="catalog-empty-dot" aria-hidden="true"></span><p class="catalog-eyebrow">Portfólio em atualização</p><h2 id="gallery-empty-title">Novos projetos chegam por aqui<span class="accent">.</span></h2><p>Os trabalhos desta categoria ainda não foram adicionados ao site. Você já pode conversar com a Behi sobre o que deseja criar.</p><div class="catalog-empty-actions"><a id="gallery-empty-quote" class="button button-primary" href="https://wa.me/5511982517271" target="_blank" rel="noopener noreferrer">Pedir orçamento <span aria-hidden="true">↗</span></a><a class="work-link" href="./projetos.html">Conhecer outros trabalhos ↗</a></div></div>
+        <nav id="gallery-pagination" class="gallery-pagination" aria-label="Paginação dos projetos"></nav>
+      </section>
       <noscript><p>Conheça os projetos no <a class="work-link" href="https://www.behance.net/brenobotelho1">portfólio da Behi no Behance ↗</a>. Ative o JavaScript para filtrar e ampliar os trabalhos nesta página.</p></noscript>
     </main>
-    <section class="gallery-cta" aria-labelledby="gallery-cta-title"><h2 id="gallery-cta-title">seu projeto pode ser<br>o próximo <span class="accent">ponto.</span></h2><a class="button button-primary" href="./#contato">vamos conversar <span aria-hidden="true">↗</span></a></section>
+    <section class="gallery-cta" aria-labelledby="gallery-cta-title"><h2 id="gallery-cta-title">Seu projeto pode ser<br>o próximo <span class="accent">ponto.</span></h2><a id="gallery-quote" class="button button-primary" href="https://wa.me/5511982517271" target="_blank" rel="noopener noreferrer">Conversar sobre meu projeto <span aria-hidden="true">↗</span></a></section>
     <footer id="rodape" class="site-footer footer-full">
-      <div class="footer-top"><div class="footer-about"><a href="./" aria-label="Behi Digital — voltar ao início"><span class="logo-horizontal" role="img" aria-label="behi.digital"><img src="./assets/site-cabecalho-d1fed30f.png" alt="" width="1046" height="238" aria-hidden="true"></span></a><p>Tecnologia e criatividade para negócios que querem marcar presença.</p><span class="footer-signature"><span class="contact-dot" aria-hidden="true"></span> do primeiro oi ao próximo projeto.</span></div>
-      <nav class="footer-column" aria-label="Explore a Behi"><h3>explore</h3><a href="./">início</a><a href="./#solucoes">soluções</a><a href="./projetos.html">projetos</a><a href="./#contato">pedir orçamento ↗</a></nav>
-      <nav class="footer-column" aria-label="Soluções da Behi"><h3>o que fazemos</h3><a href="./#solucoes">sites & presença digital</a><a href="./#solucoes">design & materiais gráficos</a><a href="./#solucoes">conteúdo & audiovisual</a><a href="./#solucoes">estampas personalizadas</a></nav>
-      <div class="footer-column footer-contact"><h3>vamos conversar</h3><a class="footer-phone" href="https://wa.me/5511982517271" target="_blank" rel="noopener noreferrer">(11) 98251-7271 ↗</a><p>Jardim Tietê · São Mateus<br>São Paulo/SP</p><div class="footer-socials"><a href="https://www.instagram.com/behidigital/" target="_blank" rel="noopener noreferrer">instagram ↗</a><a href="https://www.behance.net/brenobotelho1" target="_blank" rel="noopener noreferrer">behance ↗</a></div></div></div>
-      <div class="footer-bottom"><span>© <span data-current-year>2026</span> Behi Digital. Todos os direitos reservados.</span><span>soluções digitais e criativas.</span><a href="#galeria">voltar ao topo ↑</a></div>
+      <div class="footer-top"><div class="footer-about"><a href="./index.html" aria-label="Behi Digital — voltar ao início"><span class="logo-horizontal" role="img" aria-label="behi.digital"><img src="./assets/site-cabecalho-d1fed30f.png" alt="" width="1046" height="238" aria-hidden="true"></span></a><p>Tecnologia e criatividade para negócios que querem marcar presença.</p><span class="footer-signature"><span class="contact-dot" aria-hidden="true"></span> Do primeiro oi ao próximo projeto.</span></div>
+      <nav class="footer-column" aria-label="Explore a Behi"><h3>Explore</h3><a href="./index.html">Início</a><a href="./index.html#solucoes">Soluções</a><a href="./projetos.html">Projetos</a><a href="./index.html#contato">Pedir orçamento ↗</a></nav>
+      <nav class="footer-column" aria-label="Soluções da Behi"><h3>O que fazemos</h3><a href="./projetos.html?tipo=sites">Sites & presença digital</a><a href="./projetos.html?tipo=design">Design & materiais gráficos</a><a href="./projetos.html?tipo=conteudo">Conteúdo & audiovisual</a><a href="./projetos.html?tipo=camisetas">Estampas personalizadas</a></nav>
+      <div class="footer-column footer-contact"><h3>Vamos conversar</h3><a class="footer-phone" href="https://wa.me/5511982517271" target="_blank" rel="noopener noreferrer">(11) 98251-7271 ↗</a><p>Jardim Tietê · São Mateus<br>São Paulo/SP</p><div class="footer-socials"><a href="https://www.instagram.com/behidigital/" target="_blank" rel="noopener noreferrer">Instagram ↗</a><a href="https://www.behance.net/brenobotelho1" target="_blank" rel="noopener noreferrer">Behance ↗</a></div></div></div>
+      <div class="footer-bottom"><span>© <span data-current-year>2026</span> Behi Digital. Todos os direitos reservados.</span><span>Soluções digitais e criativas.</span><a href="#galeria">Voltar ao topo ↑</a></div>
     </footer></div>
   <dialog id="project-dialog" class="project-dialog" aria-labelledby="dialog-title" aria-describedby="dialog-description">
     <div class="dialog-header"><span id="dialog-type" class="project-kind"></span><form method="dialog"><button id="dialog-close" class="dialog-close" type="submit" aria-label="Fechar projeto" autofocus>×</button></form></div>
     <figure class="dialog-image"><img id="dialog-image" alt="" width="808" height="632"></figure>
     <div class="dialog-image-nav" id="dialog-image-nav" hidden><button id="dialog-prev" type="button" aria-label="Imagem anterior">←</button><span id="dialog-image-count" role="status"></span><button id="dialog-next" type="button" aria-label="Próxima imagem">→</button></div>
-    <div class="dialog-info"><h2 id="dialog-title"></h2><p id="dialog-description"></p><a id="dialog-source" class="work-link" target="_blank" rel="noopener noreferrer" hidden></a></div>
+    <div class="dialog-info"><h2 id="dialog-title"></h2><p id="dialog-description"></p><a id="dialog-quote" class="button button-primary" target="_blank" rel="noopener noreferrer">Quero um projeto assim ↗</a><a id="dialog-source" class="work-link" target="_blank" rel="noopener noreferrer" hidden></a></div>
   </dialog>
-<button class="motion-toggle" aria-label="Pausar movimentos" aria-pressed="false" title="Pausar movimentos" hidden><svg class="pause-icon" viewBox="0 0 20 20" aria-hidden="true"><path d="M6 5v10M14 5v10" stroke="currentColor" stroke-width="2"/></svg><svg class="play-icon" viewBox="0 0 20 20" aria-hidden="true"><path d="m7 4 9 6-9 6V4Z" fill="currentColor"/></svg></button><script src="./script.js" defer></script><script src="./portfolio-data.js" defer></script><script src="./portfolio.js" defer></script></body></html>
+<button class="motion-toggle" aria-label="Pausar movimentos" aria-pressed="false" title="Pausar movimentos" hidden><svg class="pause-icon" viewBox="0 0 20 20" aria-hidden="true"><path d="M6 5v10M14 5v10" stroke="currentColor" stroke-width="2"/></svg><svg class="play-icon" viewBox="0 0 20 20" aria-hidden="true"><path d="m7 4 9 6-9 6V4Z" fill="currentColor"/></svg></button><script src="./script.js" defer></script><script src="./portfolio-data.js" defer></script><script src="./portfolio-model.js" defer></script><script src="./portfolio.js" defer></script></body></html>
