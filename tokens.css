@@ -1,0 +1,10 @@
+/* Declared brand values from the supplied Behi Brand Book. */
+:root {
+  --behi-ink: #111112;
+  --behi-graphite: #2a2a2d;
+  --behi-bone: #f2efe8;
+  --behi-turquoise: #10c4a7;
+  --behi-mist: #9a9a94;
+  --behi-font-heading: "Montserrat", sans-serif;
+  --behi-font-body: "Inter", sans-serif;
+}
